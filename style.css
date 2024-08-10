@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  transition: 0.2s;
+}
+h1 {
+  margin: 0px;
+}
+#container {
+  margin: 40px auto;
+  background-color: rgb(234, 234, 239);
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.257);
+  padding: 30px 40px;
+  text-align: center;
+}
+#explain {
+  font-size: 14px;
+}
+#example {
+  display: block;
+  font-style: italic;
+  font-size: 14px;
+  margin: 2px;
+  color: rgb(107, 108, 110);
+}
+#inputEl {
+  height: 22px;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 9px;
+  border: 1px solid rgb(83, 83, 136);
+  color: rgb(83, 83, 136);
+}
+#inputEl::placeholder {
+  color: rgb(158, 158, 197);
+}
+#inputEl:focus {
+  outline: none;
+}
+#false {
+  color: red;
+}
+#true {
+  color: green;
+}

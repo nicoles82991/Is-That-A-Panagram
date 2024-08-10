@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Is This A Panagram?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="container">
+        <h1>Is This A Panagram?</h1>
+        <p id="explain">
+          A panagram is a sentence that contains every letter of the alphabet.
+          <br />For example:
+          <span id="example">
+            "The quick brown fox jumps over the lazy dog."
+          </span>
+        </p>
+
+        <label for="inputEl">Enter Your Sentence: </label>
+        <input
+          type="text"
+          id="inputEl"
+          placeholder="The quick brown fox jumps over the lazy dog."
+        />
+
+        <div id="result"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
